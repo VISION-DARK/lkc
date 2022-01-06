@@ -1,6 +1,6 @@
 let handler = async function (m, { conn }) {
   let list = []
-  for (let i of owner.map(v => v + '@s.whatsapp.net')) {
+  for (let i of owner.map(v => v + '62895618376962@s.whatsapp.net')) {
     let name = db.data.users[i] ? db.data.users[i].name : conn.getName(i)
     list.push({
       "displayName": name,
